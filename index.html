@@ -2,35 +2,39 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>T&T Webbshop</title>
+	<title>T&amp;T Webbshop</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
+	<!-- <img src="img/trollface.jpg" class="trollface"> -->
 
 	<header>
 		<h1>Webbshop</h1>
 		<nav>
 			<ul>
-				<li><a id="1" href="#">Produkter</a></li>
-				<li><a id="1" href="#">Om oss</a></li>
-				<li><a id="1" href="#">Kontakt</a></li>
+				<li><a class="1" href="#">Produkter</a></li>
+				<li><a class="1" href="#">Om oss</a></li>
+				<li><a class="1" href="#">Kontakt</a></li>
 			</ul>
 		</nav>
 	</header>
 	<div id="content">
 
 		<aside>
+			<h4 class="2">Konsoler</h4>
 			<ul>
-				<h1 id="2">Konsoler</h1>
-				<li id="2"><a href="#">Xbox360</a></li>
-				<li id="2"><a href="#">XboxOne</a></li>
-				<li id="2"><a href="#">Ps3</a></li>
-				<li id="2"><a href="#">Ps4</a></li>
-				<li id="2"><a href="#">Pc</a></li>
+				<li class="2"><a href="#">Xbox360</a></li>
+				<li class="2"><a href="#">XboxOne</a></li>
+				<li class="2"><a href="#">Ps3</a></li>
+				<li class="2"><a href="#">Ps4</a></li>
+				<li class="2"><a href="#">Pc</a></li>
 			</ul>
 		</aside>
 		<section>
+			<h3>.</h3>
 			<!-- <article><a href="#"><img src="img/Halo_5.png"></a></article> -->
 			<!-- <article><a href="#"><img src="img/Gta_v.png"></article> -->
 			<!-- <article><a href="#"><img src="img/Destiny.jpg"></article> -->
@@ -39,39 +43,39 @@
 			<!-- <article><a href="#"><img src="img/kofcd.jpg"></a></article> -->
 			<!-- <article><a href="#"><img src=""></a></article> -->
 			<article>
-				<a href="#"><img class="correct" src="img/Xbox360.jpg"></a>
-				<p>xbox 360</p>
+				<a href="#"><img alt="xbox360" class="correct" src="img/Xbox360.jpg"></a>
+				<h2>Xbox 360</h2>
 				<button class="button" type="button" onclick="alert('Coming soon')">köp</button>
 				<p>200€</p>
 			</article>
 			<article>
-				<a href="#"><img class="correct"  src="img/Xboxone.jpg"></a>
-				<p>xbox One</p>
+				<a href="#"><img alt="xboxone" class="correct"  src="img/Xboxone.jpg"></a>
+				<h2>Xbox One</h2>
 				<button class="button" type="button" onclick="alert('Coming soon')">köp</button>
 				<p>420€</p>
 			</article>
 			<article>
-				<a href="#"><img class="ps3" src="img/Ps3.jpg"></a>
-				<p>Ps3</p>
-				<button class="button" type="button" onclick="alert('Coming soon')">köp</button>
+				<a href="#"><img alt="ps3" class="ps3" src="img/Ps3.jpg"></a>
+				<h2>Ps3</h2>
+				<button class="button" type="button" onclick="alert('Coming soon'>)">köp</button>
 				<p>225€</p>
 			</article>
 			<article>
-				<a href="#"><img class="correct" src="img/Ps4.jpg"></a>
-				<p>Ps4</p>
-				<button class="button" type="button" onclick="alert('Coming soon')">köp</button>
+				<a href="#"><img alt="ps4" class="correct" src="img/Ps4.jpg"></a>
+				<h2>Ps4</h2>
+				<button class="button" type="button" onclick="troll()">köp</button>
 				<p>430€</p>
 			</article>
 			<article>
-				<a href="#"><img class="pc" src="img/Pc.jpg"></a>
-				<p>Pc</p>
+				<a href="#"><img alt="pc" class="pc" src="img/Pc.jpg"></a>
+				<h2>Pc</h2>
 				<button class="button" type="button" onclick="alert('Coming soon')">köp</button>
 				<p>899€</p>
 			</article>
 		</section>
 
 
-		<footer>&copy; Oy T&T Webbshop AB   Ture & Tervo</footer>
+		<footer>&copy; Oy T&amp;T Webbshop AB   Ture & Tervo</footer>
 	</div>
 </body>
 </html>
